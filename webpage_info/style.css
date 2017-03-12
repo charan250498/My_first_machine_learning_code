@@ -1,0 +1,359 @@
+/*
+Theme Name: Canvas Child
+Theme URI: http://www.raysensenbach.com/
+Template: canvas-new
+Author: Ray Sensenbach
+Author URI: http://www.raysensenbach.com/
+Description: New designed by Ray Sensenbach. November 2016. Contact: raysensenbach@gmail.
+Tags: canvas,child
+Version: 5.9.21.1479701362
+Updated: 2016-11-21 15:09:22
+
+*/
+
+
+.clean-design h1, .clean-design h2, .clean-design h3, .clean-design h4, .clean-design h5, .clean-design h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  line-height: 1.3; }
+  .clean-design h1.left-align, .clean-design h2.left-align, .clean-design h3.left-align, .clean-design h4.left-align, .clean-design h5.left-align, .clean-design h6.left-align {
+    text-align: left; }
+.clean-design h1 {
+  font-size: 2.00rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px; }
+  .clean-design h1 strong {
+    border-bottom: 2px solid #3DBFEF; }
+.clean-design h2 {
+  font-weight: 100;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-style: italic; }
+.clean-design h3 {
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  color: #767A86;
+  margin-top: 1rem;
+  font-weight: 900; }
+.clean-design h4 {
+  font-weight: 100;
+  font-size: 1.4rem; }
+.clean-design h5 {
+  text-transform: uppercase;
+  font-weight: 900; }
+.clean-design ul {
+  list-style: circle;
+  padding-left: 1rem;
+  margin: 0; }
+  .clean-design ul.nodots {
+    list-style: none; }
+  .clean-design ul.center {
+    text-align: center; }
+.clean-design ol, .clean-design ul {
+  text-align: left; }
+.clean-design ol ul {
+  list-style: disc; }
+.clean-design strong {
+  font-family: 'Lato', sans-serif;
+  font-style: italic; }
+.clean-design blockquote {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: left;
+  margin: 1rem 2rem; }
+  .clean-design blockquote p {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 1rem 2rem; }
+  .clean-design blockquote .leftquote {
+    background-image: url("https://machinelearningmastery.com/wp-content/uploads/2016/11/quotation-left-bg.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    float: left;
+    width: 5rem;
+    height: 5rem; }
+  .clean-design blockquote span {
+    display: block;
+    font-size: 0.85rem; }
+    .clean-design blockquote span.quote-author {
+      font-weight: 700;
+      margin-top: 0.5rem; }
+    .clean-design blockquote span.quote-author-title {
+      color: #767A86;
+      font-size: 0.75rem; }
+.clean-design p {
+  font-size: 1rem;
+  color: #292D39;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  line-height: 1.5; }
+  .clean-design p.subtle {
+    font-size: 0.95rem;
+    color: #767A86;
+    text-align: center;
+    margin: 0; }
+  .clean-design p.emphasis {
+    font-size: 1.25rem;
+    font-weight: 700; }
+  .clean-design p.left-align {
+    text-align: left; }
+  .clean-design p.right-align {
+    text-align: right; }
+.clean-design hr {
+  margin: 2rem auto;
+  width: 60%;
+  background-color: #EBF0F2;
+  border: 0;
+  height: 2px; }
+.clean-design ::-moz-selection {
+  color: #FFFFFF;
+  background: #3DBFEF; }
+.clean-design ::selection {
+  color: #FFFFFF;
+  background: #3DBFEF; }
+
+.clean-design a {
+  text-decoration: none;
+  color: #3DBFEF; }
+  .clean-design a:hover, .clean-design a:focus {
+    color: #27A4D2; }
+.clean-design .btn, .clean-design .btn-primary, .clean-design .btn-green, .clean-design .btn-inverse {
+  display: inline-block;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #3DBFEF;
+  padding: 1.00rem 1.50rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px; }
+  .clean-design .btn:hover, .clean-design .btn-primary:hover, .clean-design .btn-green:hover, .clean-design .btn-inverse:hover, .clean-design .btn:focus, .clean-design .btn-primary:focus, .clean-design .btn-green:focus, .clean-design .btn-inverse:focus {
+    color: #EBF0F2;
+    background-color: #27A4D2; }
+.clean-design .btn-primary {
+  background-color: #F0525C; }
+  .clean-design .btn-primary:hover, .clean-design .btn-primary:focus {
+    background-color: #D63A44; }
+.clean-design .btn-green {
+  background-color: #41BA92; }
+  .clean-design .btn-green:hover, .clean-design .btn-green:focus {
+    background-color: #2C9A76; }
+.clean-design .btn-inverse {
+  background-color: #FFFFFF;
+  color: #F0525C; }
+  .clean-design .btn-inverse:hover, .clean-design .btn-inverse:focus {
+    background-color: #EBF0F2;
+    color: #D63A44; }
+
+html.clean-design {
+  font-size: 16px; }
+
+body.clean-design {
+  color: #292D39;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  font-size: 100%; }
+
+.clean-design .content {
+  margin: 0 auto;
+  padding: 0 0.5rem; }
+  @media (min-width: 568px) {
+    .clean-design .content {
+      width: 550px; } }
+  @media (min-width: 992px) {
+    .clean-design .content {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .clean-design .content {
+      width: 1170px; } }
+.clean-design .img-responsive {
+  max-width: 100%;
+  height: auto; }
+  .clean-design .img-responsive.circle {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    max-width: 8rem;
+    height: auto; }
+  .clean-design .img-responsive.twox {
+    max-width: 3.5rem; }
+.clean-design .img-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-top: 0;
+  color: #767A86; }
+.clean-design section {
+  padding: 2.75rem 0; }
+.clean-design ol,
+.clean-design ul {
+  padding-left: 2.5rem; }
+.clean-design ol ul,
+.clean-design ol ol,
+.clean-design ul ul,
+.clean-design ul ol {
+  padding-left: 2.5rem; }
+  .clean-design ol ul li,
+  .clean-design ol ol li,
+  .clean-design ul ul li,
+  .clean-design ul ol li {
+    margin-bottom: .25rem; }
+.clean-design .trusted {
+  background-color: #EBF0F2;
+  padding: 1rem 0; }
+  .clean-design .trusted .book-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    margin-top: 0; }
+  .clean-design .trusted img {
+    max-height: 5rem; }
+.clean-design .main-banner {
+  padding: 1rem 0 2rem 0; }
+  .clean-design .main-banner h1 {
+    font-size: 2.00rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px; }
+  .clean-design .main-banner .intro-content h5, .clean-design .main-banner .intro-content h2, .clean-design .main-banner .intro-content p {
+    text-align: left; }
+  .clean-design .main-banner .btn-primary {
+    text-align: left;
+    display: table; }
+.clean-design .quote-banner {
+  background-color: #EBF0F2;
+  background-image: url("https://machinelearningmastery.com/wp-content/uploads/2016/11/quote-bg.png");
+  padding: 1.5rem 0; }
+  .clean-design .quote-banner img {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    max-width: 8rem;
+    height: auto; }
+.clean-design .intro .jason-intro {
+  text-align: left; }
+.clean-design .testimonials {
+  background-color: #EBF0F2;
+  background-image: url("https://machinelearningmastery.com/wp-content/uploads/2016/11/quote-bg.png");
+  padding: 1.5rem 0; }
+  .clean-design .testimonials .testimonial {
+    margin-bottom: 1rem;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .clean-design .testimonials .testimonial.left {
+        text-align: left; }
+      .clean-design .testimonials .testimonial.right {
+        text-align: right; } }
+    .clean-design .testimonials .testimonial .quote-author,
+    .clean-design .testimonials .testimonial .quote-author-title {
+      display: block; }
+    .clean-design .testimonials .testimonial .quote-author {
+      font-weight: 700; }
+    .clean-design .testimonials .testimonial .quote-author-title {
+      font-style: italic;
+      font-size: 0.75rem; }
+.clean-design .inverse-banner {
+  background-color: #292D39; }
+  .clean-design .inverse-banner h2, .clean-design .inverse-banner h4, .clean-design .inverse-banner p {
+    color: #FFFFFF; }
+  .clean-design .inverse-banner .btn, .clean-design .inverse-banner .btn-primary, .clean-design .inverse-banner .btn-green, .clean-design .inverse-banner .btn-inverse {
+    margin-top: 0.85rem; }
+  .clean-design .inverse-banner img {
+    text-align: center;
+    margin: 0 auto; }
+    .clean-design .inverse-banner img.money-back-hands {
+      display: none; }
+      @media (min-width: 992px) {
+        .clean-design .inverse-banner img.money-back-hands {
+          display: block; } }
+.clean-design .whats-inside strong {
+  font-size: 0.85rem;
+  font-style: normal;
+  text-transform: uppercase; }
+.clean-design .whats-inside ol {
+  margin-top: 0; }
+  .clean-design .whats-inside ol h4 {
+    margin: 0; }
+.clean-design .content-breakdown {
+  background-color: #EBF0F2; }
+  .clean-design .content-breakdown h2 {
+    margin-bottom: 2rem; }
+  .clean-design .content-breakdown h4, .clean-design .content-breakdown h5, .clean-design .content-breakdown p {
+    text-align: left; }
+  .clean-design .content-breakdown h4 {
+    margin: 1rem 0 2rem 0; }
+  .clean-design .content-breakdown h5 {
+    font-size: 1rem; }
+    .clean-design .content-breakdown h5 strong {
+      color: #767A86; }
+  @media (min-width: 992px) {
+    .clean-design .content-breakdown ul.checks {
+      list-style: none;
+      padding-left: 1.5rem; }
+      .clean-design .content-breakdown ul.checks li {
+        margin-bottom: 0.2rem; }
+      .clean-design .content-breakdown ul.checks li:before {
+        font-family: 'Ionicons';
+        content: '\f122';
+        margin: 0 0.25rem 0 -1.25rem;
+        color: #41BA92; } }
+.clean-design .sneak-peek img {
+  border: 1px solid #D6D6D5; }
+.clean-design .bonus p {
+  text-align: left; }
+  .clean-design .bonus p.img-caption {
+    text-align: center; }
+  .clean-design .bonus p:first-of-type {
+    margin-top: 0; }
+.clean-design .pricing .pricing-table {
+  background-color: #EBF0F2;
+  border: 1px solid #D6D6D5;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1.3rem; }
+  .clean-design .pricing .pricing-table.with-emphasis {
+    background-color: #e2f2f8; }
+  .clean-design .pricing .pricing-table .benefit {
+    font-size: 1.2rem;
+    text-transform: uppercase; }
+    .clean-design .pricing .pricing-table .benefit.with-emphasis {
+      color: #3DBFEF; }
+  .clean-design .pricing .pricing-table .price {
+    color: #41BA92;
+    font-size: 2.5rem;
+    font-weight: 700; }
+    .clean-design .pricing .pricing-table .price .currency {
+      font-size: 1rem;
+      font-weight: normal;
+      color: #292D39;
+      vertical-align: top; }
+  .clean-design .pricing .pricing-table ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center; }
+    .clean-design .pricing .pricing-table ul li {
+      text-align: center; }
+  .clean-design .pricing .pricing-table .btn, .clean-design .pricing .pricing-table .btn-primary, .clean-design .pricing .pricing-table .btn-green, .clean-design .pricing .pricing-table .btn-inverse {
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem; }
+  .clean-design .pricing .pricing-table .subtle {
+    margin-bottom: 1.3rem; }
+.clean-design .pricing img.cards {
+  max-width: 18rem; }
+.clean-design .footer {
+  background-color: #EBF0F2; }
+.clean-design blockquote .leftquote {margin-left:-7rem;}
+
+/*# sourceMappingURL=style.css.map */
